@@ -12,5 +12,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        mTvHello = (TextView) findViewById(R.id.tv_hello);
+        mTvHello.setTextSize(12.5f);
     }
 }
