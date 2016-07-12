@@ -1,7 +1,8 @@
 package com.dev_daddy.helloandroid;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -17,5 +18,7 @@ public class MainActivity extends AppCompatActivity {
         mTvHello.setText("Hello Android~");
         mTvHello.setTextSize(12.5f);
         mTvHello.setHint("hint!");
+
+        Button btn = new Button(this);
     }
 }
