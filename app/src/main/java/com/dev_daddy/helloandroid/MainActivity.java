@@ -15,5 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
         mTvHello = (TextView) findViewById(R.id.tv_hello);
         mTvHello.setText("Hello Android~");
+        mTvHello.setTextSize(12.5f);
+        mTvHello.setHint("hint!");
     }
 }
