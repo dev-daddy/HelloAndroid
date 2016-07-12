@@ -14,5 +14,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mTvHello = (TextView) findViewById(R.id.tv_hello);
+        mTvHello.setText("Hello Android~");
     }
 }
